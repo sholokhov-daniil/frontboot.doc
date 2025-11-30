@@ -4,7 +4,7 @@ import JSON5 from 'json5'
 import { DefaultTheme } from "vitepress/theme"
 
 
-export const LATEST_VERSION = '2.2.x'
+export const LATEST_VERSION = '0.2.x'
 export let getVersions = () => {
   const dir = path.resolve(__dirname, '../../versions');
   return fs.readdirSync(dir);

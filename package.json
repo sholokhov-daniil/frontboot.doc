@@ -1,5 +1,5 @@
 {
-  "name": "sholokhov.exchange.doc",
+  "name": "sholokhov.frontboot.doc",
   "version": "1.0.0",
   "main": "index.js",
   "scripts": {
@@ -8,20 +8,16 @@
     "build": "vitepress build docs",
     "serve": "vitepress serve docs --port 4172"
   },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/sholokhov-daniil/sholokhov.exchange.doc.git"
-  },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/sholokhov-daniil/sholokhov.exchange.doc/issues"
+    "url": "https://github.com/sholokhov-daniil/frontboot/issues"
   },
-  "homepage": "https://github.com/sholokhov-daniil/sholokhov.exchange.doc#readme",
+  "homepage": "https://github.com/sholokhov-daniil/frontboot",
   "description": "",
   "devDependencies": {
-    "vitepress": "^1.6.4"
+    "vitepress": "^2.0.0-alpha.15"
   },
   "dependencies": {
     "@types/node": "^24.8.1",
