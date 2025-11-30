@@ -1,5 +1,6 @@
 # Консольные команды
 Взаимодействие с модулем происходит через консоль, основанную на библиотеке [symfony/console](https://symfony.com/doc/current/components/console.html).  
+Поддерживает работу через [bitrix cli](https://dev.1c-bitrix.ru/learning/course/index.php?COURSE_ID=43&LESSON_ID=11685).  
 Обращение к консольным командам должно производиться в корневой директории модуля.
 
 > [!WARNING]
