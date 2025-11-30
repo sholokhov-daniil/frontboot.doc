@@ -9,15 +9,15 @@ import {
 } from './data/versions'
 
 export default defineConfig({
-    title: 'sholokhov.exchange',
-    description: 'Документация по модулю sholokhov.exchange',
-    base: '/sholokhov.exchange.doc/',
+    title: 'sholokhov.frontboot',
+    description: 'Документация по модулю sholokhov.frontboot',
+    base: '/frontboot.doc/',
     cleanUrls: true,
     rewrites: generateVersionRewrites(),
     head: [
         [
             'link',
-            {rel: 'icon', href: '/sholokhov.exchange.doc/favicon.ico'}
+            {rel: 'icon', href: '/frontboot.doc/favicon.ico'}
         ]
     ],
 
@@ -30,11 +30,11 @@ export default defineConfig({
             label: 'На этой странице'
         },
         socialLinks: [
-            { icon: 'github', link: 'https://github.com/sholokhov-daniil/sholokhov.exchange' }
+            { icon: 'github', link: 'https://github.com/sholokhov-daniil/frontboot' }
         ],
         nav: [
             generateChanges(),
-            {text: 'Сообщить об ошибке', link: "https://github.com/sholokhov-daniil/sholokhov.exchange/issues"},
+            {text: 'Сообщить об ошибке', link: "https://github.com/sholokhov-daniil/frontboot/issues"},
             generateVersionSwitcher(),
         ],
         sidebar: generateVersionSidebars(),
