@@ -10,6 +10,7 @@ import {
 
 export default defineConfig({
     title: 'sholokhov.frontboot',
+    appearance: 'dark',
     description: 'Документация по модулю sholokhov.frontboot',
     base: '/frontboot.doc/',
     cleanUrls: true,
